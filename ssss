@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أداة تقشير الأسلاك</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .offer-banner {
+            background-color: orange;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        form {
+            margin-top: 15px;
+            text-align: right;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        .submit-btn {
+            background-color: green;
+            color: white;
+            border: none;
+            font-size: 20px;
+            padding: 15px;
+            width: 100%;
+            cursor: pointer;
+        }
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="YOUR_IMAGE_URL_HERE" alt="أداة تقشير الأسلاك">
+
+        <div class="offer-banner">خدمة التوصيل متاحة لكل مكان فقط بـ 3 دنانير</div>
+        <p>خلدا - إشارات العساف - مجمع الأريج التجاري</p>
+
+        <form>
+            <label>الإسم</label>
+            <input type="text" name="name" required>
+
+            <label>العنوان بالتفصيل</label>
+            <input type="text" name="address" required>
+
+            <label>رقم الهاتف</label>
+            <input type="tel" name="phone" required>
+
+            <label>رقم هاتف بديل (اختياري)</label>
+            <input type="tel" name="alt_phone">
+
+            <label>اختر العرض المناسب لك:</label>
+            <input type="radio" name="offer" value="1" checked> عدد 1 بسعر 9 دنانير <br>
+            <input type="radio" name="offer" value="2"> عدد 2 بسعر 17 دينار + هدية
+
+            <button class="submit-btn">اطلب الآن</button>
+        </form>
+
+        <div class="whatsapp">
+            <a href="https://wa.me/YOUR_NUMBER" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="واتساب">
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
